@@ -6,6 +6,11 @@ from datetime import datetime
 import sys
 import os
 
+SRC_PATH = os.path.realpath("..")
+PROJ_PATH = os.path.realpath("../..")
+sys.path.append(PROJ_PATH)
+sys.path.append(SRC_PATH)
+
 from monai.config import print_config
 
 print_config()
