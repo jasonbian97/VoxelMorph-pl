@@ -67,6 +67,9 @@ class VoxelMorph(BaseModel):
     def add_model_specific_args(parent_parser=None):
         parent_parser = BaseModel.add_model_specific_args(parent_parser)
         parser = ArgumentParser(parents=[parent_parser], add_help=False)
+
+        parser.add_argument('--VMHCP_root_dir', type=str,  default="../../data/cache/data.json")
+
         parser.add_argument('--bidir', type=int,  default=0)
         parser.add_argument('--pixdim', type=float, default=2.0)
         parser.add_argument('--int-steps', type=int, default=7,

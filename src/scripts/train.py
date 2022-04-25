@@ -4,11 +4,7 @@ torch.manual_seed(1)
 from pytorch_lightning.profiler import AdvancedProfiler, PassThroughProfiler, SimpleProfiler
 from datetime import datetime
 import sys
-
-if sys.argv[2] == "local":
-    sys.path.append("/mnt/ssd2/Projects/EPICorrection")
-if sys.argv[2] == "jhuserver":
-    sys.path.append("/home/zhangxing/Projects/EPICorrection/")
+import os
 
 from monai.config import print_config
 
@@ -31,9 +27,6 @@ def _init_parser() -> ArgumentParser:
     parser.add_argument(
         'model', type=str,choices = ["voxelmorph"],
         help='Name of the model to use.')
-    parser.add_argument(
-        'server', type=str, choices=["local","jhuserver"],
-        help='Name of the server to use.')
     parser.add_argument(
         '--random_seed', type=int, default=1234,
         help='A number to seed the pseudo-random generators.')
@@ -148,11 +141,6 @@ if __name__ == '__main__':
         SRModel = get_model_reference(sys.argv[1])
         parser = SRModel.add_model_specific_args(parser)
 
-
-    if sys.argv[2] == "jhuserver":
-        add_datasets_to_parser(parser, '../../config/jhudatasets.yml')
-    else:
-        add_datasets_to_parser(parser, '../../config/datasets.yml')
 
     parser = pl.Trainer.add_argparse_args(parser)
 

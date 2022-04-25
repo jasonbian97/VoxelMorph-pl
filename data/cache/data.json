@@ -1,62 +1,102 @@
 {
-    "599469": {
-        "b0_star": "/mnt/ssd2/Projects/EPICorrection/data/cache/599469/599469_proc_b0.nii.gz",
-        "T1w": "/mnt/ssd2/Projects/EPICorrection/data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
-        "T2w": "/mnt/ssd2/Projects/EPICorrection/data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
-        "LR_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/599469/599469_raw_LR_b0.nii.gz",
-        "RL_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/599469/599469_raw_LR_b0.nii.gz",
-        "LR2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/599469/LR2T1w_affine.nii.gz",
-        "RL2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/599469/RL2T1w_affine.nii.gz",
+    "foo01": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
         "split": "val"
     },
-    "599671": {
-        "b0_star": "/mnt/ssd2/Projects/EPICorrection/data/cache/599671/599671_proc_b0.nii.gz",
-        "T1w": "/mnt/ssd2/Projects/EPICorrection/data/cache/599671/T1w_acpc_dc_restore_brain.nii.gz",
-        "T2w": "/mnt/ssd2/Projects/EPICorrection/data/cache/599671/T2w_acpc_dc_restore_brain.nii.gz",
-        "LR_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/599671/599671_raw_LR_b0.nii.gz",
-        "RL_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/599671/599671_raw_LR_b0.nii.gz",
-        "LR2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/599671/LR2T1w_affine.nii.gz",
-        "RL2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/599671/RL2T1w_affine.nii.gz",
+    "foo02": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
         "split": "val"
     },
-    "680957": {
-        "b0_star": "/mnt/ssd2/Projects/EPICorrection/data/cache/680957/680957_proc_b0.nii.gz",
-        "T1w": "/mnt/ssd2/Projects/EPICorrection/data/cache/680957/T1w_acpc_dc_restore_brain.nii.gz",
-        "T2w": "/mnt/ssd2/Projects/EPICorrection/data/cache/680957/T2w_acpc_dc_restore_brain.nii.gz",
-        "LR_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/680957/680957_raw_LR_b0.nii.gz",
-        "RL_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/680957/680957_raw_LR_b0.nii.gz",
-        "LR2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/680957/LR2T1w_affine.nii.gz",
-        "RL2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/680957/RL2T1w_affine.nii.gz",
+    "foo03": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
+        "split": "val"
+    },
+    "foo04": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
         "split": "train"
     },
-    "683256": {
-        "b0_star": "/mnt/ssd2/Projects/EPICorrection/data/cache/683256/683256_proc_b0.nii.gz",
-        "T1w": "/mnt/ssd2/Projects/EPICorrection/data/cache/683256/T1w_acpc_dc_restore_brain.nii.gz",
-        "T2w": "/mnt/ssd2/Projects/EPICorrection/data/cache/683256/T2w_acpc_dc_restore_brain.nii.gz",
-        "LR_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/683256/683256_raw_LR_b0.nii.gz",
-        "RL_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/683256/683256_raw_LR_b0.nii.gz",
-        "LR2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/683256/LR2T1w_affine.nii.gz",
-        "RL2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/683256/RL2T1w_affine.nii.gz",
+    "foo05": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
         "split": "train"
     },
-    "685058": {
-        "b0_star": "/mnt/ssd2/Projects/EPICorrection/data/cache/685058/685058_proc_b0.nii.gz",
-        "T1w": "/mnt/ssd2/Projects/EPICorrection/data/cache/685058/T1w_acpc_dc_restore_brain.nii.gz",
-        "T2w": "/mnt/ssd2/Projects/EPICorrection/data/cache/685058/T2w_acpc_dc_restore_brain.nii.gz",
-        "LR_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/685058/685058_raw_LR_b0.nii.gz",
-        "RL_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/685058/685058_raw_LR_b0.nii.gz",
-        "LR2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/685058/LR2T1w_affine.nii.gz",
-        "RL2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/685058/RL2T1w_affine.nii.gz",
-        "split": "val"
+    "foo06": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
+        "split": "train"
     },
-    "687163": {
-        "b0_star": "/mnt/ssd2/Projects/EPICorrection/data/cache/687163/687163_proc_b0.nii.gz",
-        "T1w": "/mnt/ssd2/Projects/EPICorrection/data/cache/687163/T1w_acpc_dc_restore_brain.nii.gz",
-        "T2w": "/mnt/ssd2/Projects/EPICorrection/data/cache/687163/T2w_acpc_dc_restore_brain.nii.gz",
-        "LR_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/687163/687163_raw_LR_b0.nii.gz",
-        "RL_raw": "/mnt/ssd2/Projects/EPICorrection/data/cache/687163/687163_raw_LR_b0.nii.gz",
-        "LR2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/687163/LR2T1w_affine.nii.gz",
-        "RL2T1w_affine": "/mnt/ssd2/Projects/EPICorrection/data/cache/687163/RL2T1w_affine.nii.gz",
-        "split": "val"
+    "foo07": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
+        "split": "train"
+    },
+    "foo08": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
+        "split": "train"
+    },
+    "foo09": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
+        "split": "train"
+    },
+    "foo10": {
+        "b0_star": "data/cache/599469/599469_proc_b0.nii.gz",
+        "T1w": "data/cache/599469/T1w_acpc_dc_restore_brain.nii.gz",
+        "T2w": "data/cache/599469/T2w_acpc_dc_restore_brain.nii.gz",
+        "LR_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "RL_raw": "data/cache/599469/599469_raw_LR_b0.nii.gz",
+        "LR2T1w_affine": "data/cache/599469/LR2T1w_affine.nii.gz",
+        "RL2T1w_affine": "data/cache/599469/RL2T1w_affine.nii.gz",
+        "split": "train"
     }
 }
