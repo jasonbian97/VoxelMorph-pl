@@ -7,7 +7,9 @@ import sys
 import os
 
 SRC_PATH = os.path.realpath("..")
+print("SRC_PATH = ", SRC_PATH)
 PROJ_PATH = os.path.realpath("../..")
+print("PROJ_PATH = ", PROJ_PATH)
 sys.path.append(PROJ_PATH)
 sys.path.append(SRC_PATH)
 
