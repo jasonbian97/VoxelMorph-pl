@@ -6,12 +6,14 @@ from datetime import datetime
 import sys
 import os
 
-SRC_PATH = os.path.realpath("..")
-print("SRC_PATH = ", SRC_PATH)
-PROJ_PATH = os.path.realpath("../..")
-print("PROJ_PATH = ", PROJ_PATH)
-sys.path.append(PROJ_PATH)
-sys.path.append(SRC_PATH)
+import pathlib
+FILE_PATH = pathlib.Path(__file__).parent.resolve()
+SRC_Folder = FILE_PATH.parent.resolve()
+Proj_folder = SRC_Folder.parent.resolve()
+sys.path.append(Proj_folder)
+sys.path.append(SRC_Folder)
+print("SRC_Folder = ", SRC_Folder)
+print("Proj_folder = ", Proj_folder)
 
 from monai.config import print_config
 
