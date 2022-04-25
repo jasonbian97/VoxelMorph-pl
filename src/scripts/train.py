@@ -46,6 +46,10 @@ def _init_parser() -> ArgumentParser:
     parser.add_argument(
         '--log_dir', type=str, default='../results/logs',
         help='The path to the directory where the logs will be saved.')
+    # parser.add_argument(
+    #     '--proj_path', type=str, default='',
+    #     help='The path to the project directory')
+
     return parser
 
 def _gen_dataset_id(

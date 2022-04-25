@@ -5,7 +5,7 @@ import torch
 from torch.utils.data import Dataset
 import json
 import os
-
+import pathlib
 class VMHCPDataset(Dataset):
     def __init__(
             self,
@@ -25,14 +25,16 @@ class VMHCPDataset(Dataset):
             jdict = json.load(f)
 
         # TODO: Customize HERE 01
-        Proj_PATH = os.path.abspath("../..")
+        
+        proj_path = pathlib.Path(self.data_json).parent.parent.parent.resolve()
+        
         for subid, subdict in jdict.items():
             if subdict["split"] == split:
                 self.data_seq.append({
-                    "RL": os.path.join(Proj_PATH,subdict["RL2T1w_affine"]),
-                    "LR": os.path.join(Proj_PATH,subdict["RL2T1w_affine"]),
-                    "T1w": os.path.join(Proj_PATH,subdict["T1w"]),
-                    "b0_star": os.path.join(Proj_PATH,subdict["b0_star"]),
+                    "RL": os.path.join(proj_path,subdict["RL2T1w_affine"]),
+                    "LR": os.path.join(proj_path,subdict["RL2T1w_affine"]),
+                    "T1w": os.path.join(proj_path,subdict["T1w"]),
+                    "b0_star": os.path.join(proj_path,subdict["b0_star"]),
                     "meta": {
                         'dataset_name': self.dataset_name,
                          'split': self.split
