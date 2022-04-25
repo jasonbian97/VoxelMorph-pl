@@ -115,7 +115,7 @@ def train(args: Namespace) -> None:
     callbacks.append(lr_logger)
 
     log_model_dir = str(Path(args.log_dir) / log_model_name)
-    tb_logger = pl.loggers.TensorBoardLogger(log_model_dir)
+    tb_logger = pl.loggers.TensorBoardLogger("tb_logs",name="my_model")
 
     model_ckpt_last = pl.callbacks.model_checkpoint.ModelCheckpoint(
         filename=args.model+'_last_{epoch}', save_weights_only=True)
