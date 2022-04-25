@@ -15,13 +15,20 @@ This repo built upon the official VoxelMorph-repo, but has several differences:
 - This repo uses Pytorch-Lightning framework to manage more complicated experiment, which is easier for developers and researchers who want to make modifications to network architecture, training strategy or data augmentation.
 
 ## How to use
-Before training, I used to organize summarize training dataset information in a json file, which will be used for construct `Dataset` class. An exmaple can be found [here](./data/cache/data.json).
-Note that only the nii.gz path is given, and monai will automatically read it.
+Before training, I used to organize summarize training dataset information in a json file, which will be used for construct `Dataset` class. An exmaple can be found [here](./data/cache/data.json). You may notice I made up 10 pseudo cases :) just to give an example.
+Note that only the nii.gz path is given, and monai will automatically read it. 
+
+See this [Colab example](https://colab.research.google.com/drive/1bObtvPhC-RPPjeeAcRciGYdOU_XUs8Pe?usp=sharing) to do training and inference with those pseudo cases.
 
 To do the training, run
 ```shell script
-bash src/script/run_train.sh
+cd src/scripts
+# inspect all options
+python train.py --help
+# do training
+bash run_train.sh
 ```
+
 
 To do the inference using pretrained model:
 ```shell script
